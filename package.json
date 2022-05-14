@@ -1,0 +1,8 @@
+{
+  "name": "@dhmk/eslint-plugin-atom",
+  "version": "0.0.1",
+  "dependencies": {
+    "@typescript-eslint/utils": "^5.23.0",
+    "typescript": "^4.6.4"
+  }
+}
