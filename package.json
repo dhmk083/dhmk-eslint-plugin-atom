@@ -1,6 +1,18 @@
 {
   "name": "@dhmk/eslint-plugin-atom",
   "version": "0.0.1",
+  "description": "Eslint plugin for @dhmk/atom",
+  "keywords": [
+    "atom",
+    "eslint",
+    "eslint-plugin"
+  ],
+  "license": "MIT",
+  "repository": "github:dhmk083/dhmk-eslint-plugin-atom",
+  "scripts": {
+    "version": "git add -A",
+    "postversion": "git push && git push --tags"
+  },
   "dependencies": {
     "@typescript-eslint/utils": "^5.23.0",
     "typescript": "^4.6.4"
