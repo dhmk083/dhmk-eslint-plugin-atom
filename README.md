@@ -33,7 +33,7 @@ module.exports = {
     tsconfigRootDir: __dirname,
     project: "tsconfig.json",
   },
-  plugins: ["@dmhk/atom"],
+  plugins: ["@dhmk/atom"],
   rules: {
     "@dhmk/atom/missing-call": "warn",
   },
